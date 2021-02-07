@@ -1,0 +1,8 @@
+#menuList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#detailFood img {
+    border-radius: 10px;
+}
