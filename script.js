@@ -19,7 +19,7 @@ search.addEventListener("click", function () {
                 const foodDiv = document.createElement("div");
                 foodDiv.className = "foods mt-5";
                 const foodInf = `
-                    <div class="card" style="width: 15rem;" onclick="food('${foods.strMeal}')">
+                    <div class="card" style="width: 17rem;" onclick="food('${foods.strMeal}')">
                     <img src="${foods.strMealThumb}" class="card-img-top img-thumbnail" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">${foods.strMeal}</h5>
@@ -54,28 +54,28 @@ const information = food => {
         <h1>${food.strMeal}</h1>
         <h3>Ingredients</h3>
         <ul class="list-group">
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." Checked>
+            <li class="list-group-item badge bg-info">
+                <input class="form-check-input me-1" type="checkbox" value=""  Checked>
                 ${food.strIngredient1}
             </li>
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." Checked>
+            <li class="list-group-item badge bg-dark">
+                <input class="form-check-input me-1" type="checkbox" value=""  Checked>
                 ${food.strIngredient2}
             </li>
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." Checked>
+            <li class="list-group-item badge bg-danger">
+                <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient3}
             </li>
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." Checked>
+            <li class="list-group-item badge bg-primary">
+                <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient4}
             </li>
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." Checked>
+            <li class="list-group-item badge bg-secondary">
+                <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient5}
             </li>
-            <li class="list-group-item">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="..." Checked>
+            <li class="list-group-item badge bg-success">
+                <input class="form-check-input me-1" type="checkbox" value="" Checked>
                 ${food.strIngredient6}
             </li>
         </ul>

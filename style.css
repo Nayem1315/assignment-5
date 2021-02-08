@@ -1,3 +1,6 @@
+body{
+    background: lightblue;
+}
 #menuList {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -5,4 +8,8 @@
 
 #detailFood img {
     border-radius: 10px;
+}
+.list-group{
+    width: 400px;
+    margin: auto;
 }
